@@ -21,3 +21,13 @@ print(" salto de pagina \f salto de pagina")
 print(" retorno de carro \r retorno de carro")
 print(" salto de linea \n salto de linea")
 
+texto = "dasdfasdfasdfasdfqweqwerqwdasdfasdf"
+print(len(texto))
+texto[0]
+texto[1]
+print(texto[1:10])
+print(texto[:10])
+print(texto[-10])
+print(texto[-10::2])
+for letra in texto:
+    print(letra)
